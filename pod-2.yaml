@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-2
+  namespace: dev
+spec:
+  containers:
+  - image: nginx
+    name: nginx
